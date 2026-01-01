@@ -1,0 +1,418 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ad9edf65-9f41-4da5-ac8d-b0754357a532")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 163.83 100.33) (xy 163.83 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06893f95-35a0-4037-af82-9ab099c1e595")
+	)
+	(wire
+		(pts
+			(xy 160.02 100.33) (xy 160.02 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21bb2796-bc30-4a30-bb37-6863a3907368")
+	)
+	(wire
+		(pts
+			(xy 184.15 100.33) (xy 184.15 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39515485-c554-456f-8d5e-f7f651e2b618")
+	)
+	(wire
+		(pts
+			(xy 166.37 100.33) (xy 166.37 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45aade85-0363-4a1a-bd64-3c893e45c909")
+	)
+	(wire
+		(pts
+			(xy 173.99 120.65) (xy 173.99 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2897491-7be4-43e7-a06a-a9b96b32098c")
+	)
+	(wire
+		(pts
+			(xy 180.34 100.33) (xy 180.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7de765d-ab2d-4412-8ec9-c9fb444afb63")
+	)
+	(sheet
+		(at 76.2 73.66)
+		(size 43.18 72.39)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "539ae960-93b7-4680-b2d3-38d1676c29f9")
+		(property "Sheetname" "MCU"
+			(at 76.2 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 76.2 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "shell-bms"
+				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 120.65)
+		(size 36.83 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f5835dc-6b11-478a-9743-24f251ca4bb7")
+		(property "Sheetname" "Protection"
+			(at 157.226 130.302 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "protection.kicad_sch"
+			(at 157.48 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 157.48 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "CD" output
+			(at 160.02 120.65 90)
+			(uuid "2ec8f9fa-d8da-4fed-a6ba-d87707a58b64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CHG" output
+			(at 163.83 120.65 90)
+			(uuid "9767a06f-3e63-4e28-ba6a-8a3bf07d0875")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CI_TOP" input
+			(at 173.99 120.65 90)
+			(uuid "e2f4ac2f-012f-4bba-9757-f682482f4caa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSG" output
+			(at 166.37 120.65 90)
+			(uuid "acaecbf4-a229-416f-a9b2-a60bd3807d28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LD" output
+			(at 180.34 120.65 90)
+			(uuid "58889e38-96ad-47c3-8ebe-c01cf5db515e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PACK" output
+			(at 184.15 120.65 90)
+			(uuid "08e8408e-0b03-4cc7-a5cd-61a818022dfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "shell-bms"
+				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 45.72)
+		(size 40.64 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "769ba42a-ebc1-4cfb-9244-822cfca559ab")
+		(property "Sheetname" "VIN"
+			(at 76.2 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "vin.kicad_sch"
+			(at 76.2 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "shell-bms"
+				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 48.26)
+		(size 36.83 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6c14c9f-be18-4932-99a8-c7d510021503")
+		(property "Sheetname" "ReaderIC"
+			(at 157.48 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "readerIC.kicad_sch"
+			(at 195.072 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CD" input
+			(at 160.02 100.33 270)
+			(uuid "23c007ff-a096-45a6-93db-ec20ca91c369")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CHG" output
+			(at 163.83 100.33 270)
+			(uuid "0e4dfdcc-218e-4996-ba1e-e8bc346147b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DCHG" output
+			(at 157.48 90.17 180)
+			(uuid "850322c2-5c81-4b71-ae37-c2fa8160f14b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DDSG" output
+			(at 157.48 87.63 180)
+			(uuid "da269e97-0a61-45e7-8329-ba59f2971113")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSG" output
+			(at 166.37 100.33 270)
+			(uuid "f9ce4078-e737-4bff-8ca0-ca8fe4b14f4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FUSE" output
+			(at 194.31 92.71 0)
+			(uuid "eb0a543f-6a0a-4f79-8152-b3aeb8bfeb85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IC_SCL" output
+			(at 157.48 78.74 180)
+			(uuid "0ee06799-076a-4436-8038-73e4bcc3d3c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IC_SDA" output
+			(at 157.48 82.55 180)
+			(uuid "f8df4196-34b3-49a8-a601-cccbd6d0e202")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LD" input
+			(at 180.34 100.33 270)
+			(uuid "1f902467-22b5-4595-ac4b-a4d72086a3f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PACK" input
+			(at 184.15 100.33 270)
+			(uuid "a498e81d-bd36-4bb5-9635-e835e2383a4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CI_Top" output
+			(at 173.99 100.33 270)
+			(uuid "58f1eecc-391a-42bf-94e3-8c063168d1c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "shell-bms"
+				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

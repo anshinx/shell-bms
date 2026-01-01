@@ -1,0 +1,40 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8bc19136-7093-4d77-9b35-bffda5787002")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 60.96 60.96) (xy 137.16 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d565d5b-6b7a-495e-a510-853d7b432ab6")
+	)
+	(hierarchical_label "Voltage_out"
+		(shape output)
+		(at 137.16 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45b10ed6-7822-40c5-b286-2c54b5a043e8")
+	)
+	(hierarchical_label "Voltage_In"
+		(shape input)
+		(at 60.96 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75314561-4f81-4acc-a365-37d1aa52b9c9")
+	)
+)

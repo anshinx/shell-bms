@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "10f61fa6-0b2b-4ab2-879e-480b7cb7e8b9")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "+3V3"
+		(shape output)
+		(at 90.17 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08abf04b-6a6a-4736-b1dc-ca2c5e617b66")
+	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 90.17 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b3eaded-7628-4260-8d57-15343a9721d4")
+	)
+	(hierarchical_label "+12"
+		(shape output)
+		(at 90.17 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93db3ec1-6259-48d6-946c-fc3eb3724fe6")
+	)
+	(hierarchical_label "Voltage_In"
+		(shape output)
+		(at 27.94 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb1491d7-b6bf-4d63-91a7-70f01a323f47")
+	)
+)
