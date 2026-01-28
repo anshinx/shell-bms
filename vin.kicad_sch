@@ -589,6 +589,10 @@
 		(color 0 0 0 0)
 		(uuid "f1881136-2cbb-465c-9198-7e8ad4ea96c9")
 	)
+	(no_connect
+		(at 140.97 34.29)
+		(uuid "64b80d99-5c67-4afd-a5cc-63b5a4f3ce64")
+	)
 	(wire
 		(pts
 			(xy 95.25 39.37) (xy 104.14 39.37)
@@ -757,7 +761,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-3_THT_Pad0.3mm"
 			(at 86.36 57.15 0)
 			(effects
 				(font
@@ -828,7 +832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad_Via"
 			(at 64.77 49.53 0)
 			(effects
 				(font
@@ -1024,7 +1028,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad_Via"
 			(at 64.77 39.37 0)
 			(effects
 				(font

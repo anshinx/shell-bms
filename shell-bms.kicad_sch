@@ -18,6 +18,10 @@
 		(uuid "e9e71abb-9d36-48d4-96f8-6f6db38e4128")
 	)
 	(no_connect
+		(at 96.52 64.77)
+		(uuid "3e69d38f-432b-4371-89c5-5839bd8309f0")
+	)
+	(no_connect
 		(at 157.48 91.44)
 		(uuid "82b3cc42-587c-43ca-a26e-4e31d6bac61c")
 	)
@@ -273,6 +277,17 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 87.63) (xy 157.48 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "acb5e21f-1822-4d0b-bc4f-df4028a2f163")
+	)
+	(wire
+		(pts
 			(xy 96.52 115.57) (xy 96.52 127)
 		)
 		(stroke
@@ -314,17 +329,6 @@
 			(color 0 0 255 1)
 		)
 		(uuid "c9707a19-15ff-43b0-bb8d-0db27c3b096d")
-	)
-	(wire
-		(pts
-			(xy 173.99 113.03) (xy 173.99 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "d2897491-7be4-43e7-a06a-a9b96b32098c")
 	)
 	(wire
 		(pts
@@ -566,6 +570,16 @@
 				(justify left)
 			)
 		)
+		(pin "NTC" input
+			(at 119.38 87.63 0)
+			(uuid "c69af674-a829-4b4c-8566-8c57da450288")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "shell-bms"
 				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532"
@@ -628,16 +642,6 @@
 		(pin "CHG" output
 			(at 163.83 113.03 90)
 			(uuid "9767a06f-3e63-4e28-ba6a-8a3bf07d0875")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CI_TOP" input
-			(at 173.99 113.03 90)
-			(uuid "e2f4ac2f-012f-4bba-9757-f682482f4caa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1058,9 +1062,9 @@
 				(justify left)
 			)
 		)
-		(pin "CI_Top" output
-			(at 173.99 104.14 270)
-			(uuid "58f1eecc-391a-42bf-94e3-8c063168d1c5")
+		(pin "+3V3" input
+			(at 157.48 78.74 180)
+			(uuid "1244c245-efa0-4caf-80dc-24d8d682a28a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,9 +1072,9 @@
 				(justify left)
 			)
 		)
-		(pin "+3V3" input
-			(at 157.48 78.74 180)
-			(uuid "1244c245-efa0-4caf-80dc-24d8d682a28a")
+		(pin "NTC" output
+			(at 157.48 87.63 180)
+			(uuid "a94df50d-3467-4d02-bfa4-1400e11fdcf5")
 			(effects
 				(font
 					(size 1.27 1.27)

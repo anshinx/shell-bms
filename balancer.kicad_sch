@@ -1360,7 +1360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 118.11 92.71 0)
 			(effects
 				(font
@@ -1484,7 +1484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 137.16 127 0)
 			(effects
 				(font
@@ -1560,7 +1560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 165.1 92.71 0)
 			(effects
 				(font

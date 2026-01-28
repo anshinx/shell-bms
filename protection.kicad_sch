@@ -11,7 +11,7 @@
 		(company "Pehlivan Team")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -20,15 +20,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -53,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,27 +80,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(rectangle
@@ -125,19 +114,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -155,7 +133,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -165,42 +143,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1127,12 +1069,6 @@
 		(uuid "0e18b55f-1d77-4f40-b7dd-b2372e9c0fe7")
 	)
 	(junction
-		(at 179.07 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f5accf1-0c9b-40d3-81d0-cd0875c63788")
-	)
-	(junction
 		(at 140.97 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1179,12 +1115,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "981291b0-f011-4a82-9960-970ece0c76f0")
-	)
-	(junction
-		(at 179.07 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "afa37c34-3c8d-4d00-abb8-faaf6b129feb")
 	)
 	(junction
 		(at 68.58 93.98)
@@ -1376,16 +1306,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 93.98) (xy 181.61 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a16a9c1-c844-4d20-b811-10ada2521498")
-	)
-	(wire
-		(pts
 			(xy 87.63 116.84) (xy 87.63 119.38)
 		)
 		(stroke
@@ -1546,16 +1466,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 101.6) (xy 181.61 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c87ab737-3620-4010-a7e3-58657e4db828")
-	)
-	(wire
-		(pts
 			(xy 181.61 96.52) (xy 179.07 96.52)
 		)
 		(stroke
@@ -1613,16 +1523,6 @@
 			(type default)
 		)
 		(uuid "e4118e4b-2a21-43c0-aa3a-ad5987691f98")
-	)
-	(wire
-		(pts
-			(xy 179.07 100.33) (xy 179.07 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5b067e4-8bdb-4bed-9b65-a8c82d52c86a")
 	)
 	(wire
 		(pts
@@ -1766,7 +1666,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric_Pad1.12x2.15mm_HandSolder"
 			(at 157.48 147.828 90)
 			(effects
 				(font
@@ -1809,7 +1709,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 186.69 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1836,7 +1736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical"
 			(at 186.69 96.52 0)
 			(effects
 				(font
@@ -1854,7 +1754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 186.69 96.52 0)
 			(effects
 				(font
@@ -1863,17 +1763,11 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "27dfb6e5-ad65-4028-97b2-f2b91df35724")
-		)
 		(pin "2"
 			(uuid "597211f5-c9ed-4858-aa11-48f1974d4b15")
 		)
 		(pin "1"
 			(uuid "0318a637-423c-4865-8404-3454d098360b")
-		)
-		(pin "4"
-			(uuid "9db262c8-b750-4795-bd82-694104ab40bf")
 		)
 		(instances
 			(project ""
@@ -1909,7 +1803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric_Pad1.12x2.15mm_HandSolder"
 			(at 140.97 144.272 90)
 			(effects
 				(font
@@ -1976,7 +1870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
 			(at 116.332 118.11 90)
 			(effects
 				(font
@@ -2210,7 +2104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
 			(at 71.882 102.87 90)
 			(effects
 				(font
@@ -2271,7 +2165,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 88.138 114.046 90)
+			(at 87.63 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +2173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
 			(at 85.852 113.03 90)
 			(effects
 				(font
@@ -2347,7 +2241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric_Pad1.12x2.15mm_HandSolder"
 			(at 166.37 147.828 90)
 			(effects
 				(font
@@ -2414,7 +2308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 85.852 123.19 90)
 			(effects
 				(font
@@ -2481,7 +2375,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
 			(at 116.332 127 90)
 			(effects
 				(font
@@ -2548,7 +2442,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0508_1220Metric_Pad1.12x2.15mm_HandSolder"
 			(at 149.86 144.272 90)
 			(effects
 				(font
@@ -2617,7 +2511,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-201_P15.24mm_Horizontal"
 			(at 64.77 104.14 0)
 			(effects
 				(font
@@ -2784,7 +2678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
 			(at 139.192 97.79 90)
 			(effects
 				(font
@@ -2854,7 +2748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 171.1452 85.09 0)
 			(effects
 				(font
@@ -2924,7 +2818,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 171.1452 93.98 0)
 			(effects
 				(font
@@ -2993,7 +2887,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-201_P15.24mm_Horizontal"
 			(at 134.62 97.79 0)
 			(effects
 				(font

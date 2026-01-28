@@ -2785,10 +2785,6 @@
 		(uuid "1a2cfd07-aaeb-405b-9184-8236f72028a2")
 	)
 	(no_connect
-		(at 177.8 96.52)
-		(uuid "44ae67d0-ff72-4cd5-9fb5-29a855968fc5")
-	)
-	(no_connect
 		(at 177.8 104.14)
 		(uuid "591520ac-eef3-4f06-8e97-c0ca8fad556d")
 	)
@@ -2839,6 +2835,10 @@
 	(no_connect
 		(at 142.24 144.78)
 		(uuid "c58f232b-8fff-496b-aa2b-2129116c264b")
+	)
+	(no_connect
+		(at 142.24 152.4)
+		(uuid "c6c823ef-8041-4e14-a9c9-7030f76d0d6e")
 	)
 	(no_connect
 		(at 142.24 114.3)
@@ -3902,6 +3902,17 @@
 			(justify right)
 		)
 		(uuid "8f8554af-472d-4672-954a-163db4f4500b")
+	)
+	(hierarchical_label "NTC"
+		(shape input)
+		(at 177.8 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbe53a93-5c74-428d-80fb-d08ccaf1d6b4")
 	)
 	(hierarchical_label "UART_USB_RX"
 		(shape output)
@@ -5247,24 +5258,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8de6116d-4781-4f13-9111-92f0e450e100")
-		(property "Reference" "C46"
-			(at 140.9701 45.72 0)
+		(property "Reference" "C59"
+			(at 142.24 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "10uF"
-			(at 138.4301 45.72 0)
+			(at 137.668 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
@@ -5303,7 +5311,7 @@
 		(instances
 			(project "shell-bms"
 				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/539ae960-93b7-4680-b2d3-38d1676c29f9"
-					(reference "C46")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -5881,7 +5889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical"
 			(at 195.58 121.92 0)
 			(effects
 				(font
@@ -6483,24 +6491,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea30abaf-c585-45f0-b2c6-38419fb7c382")
-		(property "Reference" "C47"
-			(at 140.9701 59.69 0)
+		(property "Reference" "C60"
+			(at 141.986 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100nF"
-			(at 138.4301 59.69 0)
+			(at 137.414 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
@@ -6539,7 +6544,7 @@
 		(instances
 			(project "shell-bms"
 				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/539ae960-93b7-4680-b2d3-38d1676c29f9"
-					(reference "C47")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -6674,6 +6679,48 @@
 				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/539ae960-93b7-4680-b2d3-38d1676c29f9"
 					(reference "R55")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 147.32)
+		(size 29.21 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19d5b6ce-927f-4f64-baf1-7b6b657c760e")
+		(property "Sheetname" "esp32"
+			(at 41.91 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp.kicad_sch"
+			(at 41.91 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "shell-bms"
+				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/539ae960-93b7-4680-b2d3-38d1676c29f9"
+					(page "9")
 				)
 			)
 		)
