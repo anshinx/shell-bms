@@ -2768,6 +2768,18 @@
 		(color 0 0 0 0)
 		(uuid "f230966e-9fe6-4f3e-abdb-5649218f70dd")
 	)
+	(junction
+		(at 203.2 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2e9fb6b-6784-46a0-9ffe-c14a148bcddf")
+	)
+	(junction
+		(at 200.66 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb00de31-ec6e-448c-a961-7c21995a578e")
+	)
 	(no_connect
 		(at 142.24 132.08)
 		(uuid "1741385b-e3d4-42be-afcd-3f22b9c84451")
@@ -3016,7 +3028,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 93.98) (xy 198.12 93.98)
+			(xy 177.8 93.98) (xy 200.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3163,6 +3175,36 @@
 			(type default)
 		)
 		(uuid "4daf619d-2c51-4cc0-b529-4807ab1c5c14")
+	)
+	(wire
+		(pts
+			(xy 214.63 96.52) (xy 217.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1abbbc-d42d-4e4f-8519-387e82381a6f")
+	)
+	(wire
+		(pts
+			(xy 217.17 92.71) (xy 203.2 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5594b2c1-098d-4bda-a4e9-72edb39cdb6b")
+	)
+	(wire
+		(pts
+			(xy 203.2 92.71) (xy 199.39 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584d37c7-24b1-4e2e-b0e9-55b98bcd0942")
 	)
 	(wire
 		(pts
@@ -3416,7 +3458,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 91.44) (xy 198.12 91.44)
+			(xy 177.8 91.44) (xy 199.39 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3443,6 +3485,16 @@
 			(type default)
 		)
 		(uuid "b764f590-04e4-41b7-b334-71046a8bf495")
+	)
+	(wire
+		(pts
+			(xy 199.39 92.71) (xy 199.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b2aa89-d943-4854-a170-06f3da2230af")
 	)
 	(wire
 		(pts
@@ -3526,6 +3578,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 93.98) (xy 214.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd9f511-554e-4f80-9fd7-53ff1a7ab84a")
+	)
+	(wire
+		(pts
 			(xy 182.88 116.84) (xy 177.8 116.84)
 		)
 		(stroke
@@ -3566,6 +3628,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 93.98) (xy 200.66 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3db8037-1694-4f36-aa7c-22801ebae335")
+	)
+	(wire
+		(pts
 			(xy 124.46 27.94) (xy 124.46 41.91)
 		)
 		(stroke
@@ -3596,6 +3668,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 92.71) (xy 203.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8dfe1a4-e4fe-4e57-a459-9543f10c805c")
+	)
+	(wire
+		(pts
 			(xy 172.72 72.39) (xy 184.15 72.39)
 		)
 		(stroke
@@ -3603,6 +3685,16 @@
 			(type default)
 		)
 		(uuid "e9bc7412-5132-48ec-be09-2ee271e518a7")
+	)
+	(wire
+		(pts
+			(xy 214.63 93.98) (xy 214.63 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9d958e3-5ee4-429f-973f-4d39699945f7")
 	)
 	(wire
 		(pts
@@ -3861,12 +3953,12 @@
 	)
 	(hierarchical_label "UART_USB_TX"
 		(shape output)
-		(at 198.12 91.44 0)
+		(at 203.2 95.25 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4361b7c1-474c-4d50-8e39-e6fea4d654b2")
 	)
@@ -3916,12 +4008,12 @@
 	)
 	(hierarchical_label "UART_USB_RX"
 		(shape output)
-		(at 198.12 93.98 0)
+		(at 200.66 95.25 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c67bfa6d-79b0-40be-81be-3eb02865e41b")
 	)
@@ -6684,7 +6776,7 @@
 		)
 	)
 	(sheet
-		(at 41.91 147.32)
+		(at 217.17 85.09)
 		(size 29.21 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6700,7 +6792,7 @@
 		)
 		(uuid "19d5b6ce-927f-4f64-baf1-7b6b657c760e")
 		(property "Sheetname" "esp32"
-			(at 41.91 146.6084 0)
+			(at 217.17 84.3784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,12 +6801,42 @@
 			)
 		)
 		(property "Sheetfile" "esp.kicad_sch"
-			(at 41.91 168.2246 0)
+			(at 217.17 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 219.71 85.09 90)
+			(uuid "8e4db26f-8054-410c-aeda-01a691d84497")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP_TX" output
+			(at 217.17 92.71 180)
+			(uuid "4af805a4-792b-43f5-abc5-4c484b0e48d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP_RX" input
+			(at 217.17 96.52 180)
+			(uuid "6c7f8c1f-1ee7-4881-9f39-0840d2dc2f59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

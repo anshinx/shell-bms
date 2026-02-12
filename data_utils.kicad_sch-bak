@@ -3244,16 +3244,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 99.06) (xy 97.79 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00cfba33-d1c4-4f34-9623-088523b16e6d")
-	)
-	(wire
-		(pts
 			(xy 158.75 63.5) (xy 158.75 60.96)
 		)
 		(stroke
@@ -3894,6 +3884,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 86.36) (xy 97.79 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd978177-de9d-49e5-87e2-7f99159b353e")
+	)
+	(wire
+		(pts
 			(xy 71.12 110.49) (xy 73.66 110.49)
 		)
 		(stroke
@@ -3951,6 +3951,16 @@
 			(type default)
 		)
 		(uuid "f690b529-e25f-4272-840d-2da3024dd89e")
+	)
+	(wire
+		(pts
+			(xy 104.14 86.36) (xy 97.79 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77ccc52-340c-45e8-adbf-95db4491772d")
 	)
 	(wire
 		(pts
@@ -4090,7 +4100,7 @@
 	)
 	(hierarchical_label "STAT_LED"
 		(shape input)
-		(at 113.03 93.98 0)
+		(at 104.14 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4437,71 +4447,6 @@
 			(project "shell-bms"
 				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/ecbcfe07-a49f-4d1e-b6f4-527769d14b75"
 					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 97.79 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0fdc7172-8aa3-4f4f-9925-cbaf73aedbe2")
-		(property "Reference" "#PWR062"
-			(at 97.79 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 99.314 86.106 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 97.79 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed795d41-773e-4d49-ab6b-941fe9314036")
-		)
-		(instances
-			(project "shell-bms"
-				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/ecbcfe07-a49f-4d1e-b6f4-527769d14b75"
-					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -6537,75 +6482,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 109.22 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c83e3a8-f25a-4d48-ba8b-2275830aaa05")
-		(property "Reference" "R72"
-			(at 110.744 96.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "260"
-			(at 110.998 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 109.22 95.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 109.22 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c173ce3d-6437-4965-b268-fa38ccdbba93")
-		)
-		(pin "2"
-			(uuid "1a6d2cf0-6b7f-4c42-bf47-3f8748496c13")
-		)
-		(instances
-			(project "shell-bms"
-				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/ecbcfe07-a49f-4d1e-b6f4-527769d14b75"
-					(reference "R72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 71.12 123.19 0)
 		(unit 1)
@@ -7098,7 +6974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Horizontal"
 			(at 104.14 101.6 0)
 			(effects
 				(font
@@ -7554,82 +7430,6 @@
 			(project ""
 				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/ecbcfe07-a49f-4d1e-b6f4-527769d14b75"
 					(reference "J10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC817")
-		(at 100.33 93.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd0f592f-a7ad-4039-ae42-3cbcadcc0609")
-		(property "Reference" "Q7"
-			(at 99.314 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC817"
-			(at 95.25 94.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 95.25 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-			(at 100.33 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 100.33 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09361eee-067a-474c-a501-32ad2afa6efc")
-		)
-		(pin "3"
-			(uuid "c5960560-8a10-4e24-9806-e2e787d33c8f")
-		)
-		(pin "2"
-			(uuid "d405a34b-2113-473e-9104-9c866d16cfe5")
-		)
-		(instances
-			(project "shell-bms"
-				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/ecbcfe07-a49f-4d1e-b6f4-527769d14b75"
-					(reference "Q7")
 					(unit 1)
 				)
 			)
