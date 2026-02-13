@@ -3514,6 +3514,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 48.26) (xy 107.95 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be2a3cd-5a7f-4786-aada-458fdfce9c9d")
+	)
+	(wire
+		(pts
 			(xy 215.9 121.92) (xy 215.9 129.54)
 		)
 		(stroke
@@ -3531,16 +3541,6 @@
 			(type default)
 		)
 		(uuid "6094c68d-1278-4578-af79-bcb39ee018e3")
-	)
-	(wire
-		(pts
-			(xy 107.95 48.26) (xy 107.95 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61c53b2c-b187-4a80-b265-76ee490a23cb")
 	)
 	(wire
 		(pts
@@ -4598,7 +4598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 194.31 57.658 90)
 			(effects
 				(font
@@ -4862,7 +4862,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 113.03 48.26 0)
+		(at 113.03 50.8 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4870,7 +4871,7 @@
 		(dnp no)
 		(uuid "16851976-bd66-4124-897a-a2db9df3e14e")
 		(property "Reference" "J6"
-			(at 115.57 48.2599 0)
+			(at 115.57 50.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,7 +4880,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 109.22 53.848 0)
+			(at 109.22 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,7 +4889,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Horizontal"
-			(at 113.03 48.26 0)
+			(at 113.03 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +4898,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 48.26 0)
+			(at 113.03 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,7 +4907,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 113.03 48.26 0)
+			(at 113.03 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,7 +5022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 177.8 46.482 90)
 			(effects
 				(font
@@ -8023,7 +8024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 177.8 47.498 90)
 			(effects
 				(font
