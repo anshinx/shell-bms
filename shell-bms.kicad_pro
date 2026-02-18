@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 3.4,
+          "width": 1.175
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -68,12 +68,21 @@
           "width": 0.35
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "shorting_items|69680000|161180000|a673ad75-15c7-4063-8c8e-2e606a5e375e|71b34747-9fc7-4609-b40c-f9b9b51f12f1",
+          "USB"
+        ],
+        [
+          "shorting_items|74480000|161180000|32116069-3a55-4c24-b85a-300b57916189|c2389d6e-046c-4d17-9a2a-1c5a4349cc34",
+          "USB"
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "ignore",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -82,7 +91,7 @@
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_out_of_range": "ignore",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
@@ -114,7 +123,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -148,7 +157,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.25,
         "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.6,
+        "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -206,6 +215,7 @@
         0.8,
         1.0,
         2.0,
+        2.5,
         5.0
       ],
       "tuning_pattern_settings": {

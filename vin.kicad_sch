@@ -191,34 +191,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "WP-BUTR:WP-BUTR"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
+			(property "Reference" "MP"
+				(at 3.302 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
+			(property "Value" "WP-BUTR"
+				(at 3.302 -0.508 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "WP-BUTR:WP-BUTR_7460307"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -227,7 +235,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -236,61 +244,327 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole with connection"
+			(property "MF" "Würth Elektronik"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "mounting hole"
+			(property "Description_1" "8 Pin Screw Terminal, Power Tap M4 Through Hole"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
+			(property "Package" "None"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/7460307/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "7460307"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/7460307/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "WP-BUTR_0_0"
+				(rectangle
+					(start -2.54 -2.54)
+					(end -1.27 3.81)
 					(stroke
-						(width 1.27)
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.54 -2.54)
+					(end 2.54 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -2.54)
+					(end 2.54 3.81)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
 					(length 2.54)
-					(name "1"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -615,7 +889,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 54.61) (xy 86.36 49.53)
+			(xy 86.36 54.61) (xy 86.36 53.34)
 		)
 		(stroke
 			(width 0)
@@ -635,7 +909,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 49.53) (xy 67.31 49.53)
+			(xy 86.36 53.34) (xy 67.31 53.34)
 		)
 		(stroke
 			(width 0)
@@ -807,71 +1081,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 64.77 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e33f001-2b6f-49df-8cc6-cbbf7cfbf678")
-		(property "Reference" "H2"
-			(at 63.5 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B-"
-			(at 63.5 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad_Via"
-			(at 64.77 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 64.77 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06635648-1ec6-426c-9322-d69421611870")
-		)
-		(instances
-			(project "shell-bms"
-				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/769ba42a-ebc1-4cfb-9244-822cfca559ab"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 91.44 58.42 0)
 		(unit 1)
@@ -932,6 +1141,173 @@
 			(project ""
 				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/769ba42a-ebc1-4cfb-9244-822cfca559ab"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "WP-BUTR:WP-BUTR")
+		(at 62.23 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cb48377-9434-4a25-8211-dcef64524559")
+		(property "Reference" "MP2"
+			(at 61.595 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT-"
+			(at 61.595 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WP-BUTR_7460307:WP-BUTR_7460307"
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "8 Pin Screw Terminal, Power Tap M4 Through Hole"
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/7460307/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "7460307"
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/7460307/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8efc7f3f-0cb2-4f23-ae06-8214dba1482c")
+		)
+		(pin "3"
+			(uuid "bb1b9ed2-5831-4893-8250-31e870198a7d")
+		)
+		(pin "4"
+			(uuid "2b6cf42c-af04-42a6-b2bf-5a74217d0c13")
+		)
+		(pin "8"
+			(uuid "6e4604a6-d705-4a73-afd0-15a28a306094")
+		)
+		(pin "1"
+			(uuid "16e0275f-a7fb-4bdc-94b8-d11aa50e17b8")
+		)
+		(pin "5"
+			(uuid "f4babdea-64c6-49be-8c60-6dd7624c13f4")
+		)
+		(pin "6"
+			(uuid "8ff39dac-b5d6-468d-9a77-8c05f5abbb39")
+		)
+		(pin "7"
+			(uuid "b1476123-d551-49b5-acd0-774b55d6e01b")
+		)
+		(instances
+			(project "shell-bms"
+				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/769ba42a-ebc1-4cfb-9244-822cfca559ab"
+					(reference "MP2")
 					(unit 1)
 				)
 			)
@@ -1003,33 +1379,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 64.77 39.37 90)
+		(lib_id "WP-BUTR:WP-BUTR")
+		(at 62.23 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d45ebf66-0ab8-409a-b474-09af347c76c0")
-		(property "Reference" "H1"
-			(at 63.5 33.02 90)
+		(uuid "b1286ee0-b347-457e-b9cf-f4276de61e59")
+		(property "Reference" "MP1"
+			(at 61.595 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "B+"
-			(at 63.5 35.56 90)
+		(property "Value" "BAT+"
+			(at 61.595 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_8.4mm_M8_Pad_Via"
-			(at 64.77 39.37 0)
+		(property "Footprint" "WP-BUTR_7460307:WP-BUTR_7460307"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,8 +1423,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 64.77 39.37 0)
+		(property "Description" ""
+			(at 62.23 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,22 +1432,114 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
-			(at 64.77 39.37 0)
+		(property "MF" "Würth Elektronik"
+			(at 62.23 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
+		)
+		(property "Description_1" "8 Pin Screw Terminal, Power Tap M4 Through Hole"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/7460307/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "7460307"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/7460307/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e1e822d-8362-48c0-adb1-36f8af065d8b")
+		)
+		(pin "3"
+			(uuid "9ef0caaa-492d-4dc3-b147-ed708a68c7b2")
+		)
+		(pin "4"
+			(uuid "32e0e18d-6807-414a-acd4-94235ba80966")
+		)
+		(pin "8"
+			(uuid "7261f77f-5205-4075-a479-63184597b91c")
 		)
 		(pin "1"
-			(uuid "da96cbaf-4d87-471c-98db-8286d836c24e")
+			(uuid "e6416bb5-0f8c-46a6-8987-cd1921913938")
+		)
+		(pin "5"
+			(uuid "d63e4274-7b09-44ba-9528-f3766d176bd0")
+		)
+		(pin "6"
+			(uuid "8df8af02-718e-4dcc-9016-616afeee46b4")
+		)
+		(pin "7"
+			(uuid "8924e593-9357-4910-a5be-393d64b798dc")
 		)
 		(instances
-			(project ""
+			(project "shell-bms"
 				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/769ba42a-ebc1-4cfb-9244-822cfca559ab"
-					(reference "H1")
+					(reference "MP1")
 					(unit 1)
 				)
 			)

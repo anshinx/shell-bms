@@ -875,14 +875,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDPWR"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(no_connect
 		(at 113.03 113.03)
 		(uuid "6153583f-2f6a-4788-82b2-05c98ab5d6c0")
-	)
-	(no_connect
-		(at 113.03 118.11)
-		(uuid "7f138a0a-d938-4dfc-9986-82300724bebd")
 	)
 	(no_connect
 		(at 160.02 113.03)
@@ -890,7 +1059,11 @@
 	)
 	(no_connect
 		(at 113.03 115.57)
-		(uuid "9b61cf3a-9191-4c94-b11a-d27a03aa7344")
+		(uuid "cda85b19-a83d-4f7d-890e-cc6c499f746d")
+	)
+	(no_connect
+		(at 113.03 118.11)
+		(uuid "ce4ab45e-9f4b-446d-bdd8-d6431d406173")
 	)
 	(hierarchical_label "CI_4"
 		(shape input)
@@ -914,16 +1087,16 @@
 		)
 		(uuid "0a036264-89db-4e44-929e-77ccfe473ee6")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "NTC+"
 		(shape input)
-		(at 142.24 132.08 270)
+		(at 160.02 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "112bcbdb-3f96-4ebc-8382-8c9bfe1b816b")
+		(uuid "10e3740b-eb53-4a9d-bab2-9a2f366aa401")
 	)
 	(hierarchical_label "B_9"
 		(shape input)
@@ -1112,6 +1285,17 @@
 		)
 		(uuid "93530f2a-0609-4789-9e98-2223db6cc021")
 	)
+	(hierarchical_label "NTC-"
+		(shape input)
+		(at 160.02 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "995b9d7c-1a00-4d51-9054-dfd36ee99eb2")
+	)
 	(hierarchical_label "B_5"
 		(shape input)
 		(at 160.02 82.55 180)
@@ -1233,17 +1417,6 @@
 		)
 		(uuid "cc4603fe-0aed-45ec-b1ec-d94e913e268c")
 	)
-	(hierarchical_label "NTC+"
-		(shape input)
-		(at 160.02 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "da326b5e-dd45-45b0-aed4-db995439008e")
-	)
 	(hierarchical_label "B_11"
 		(shape input)
 		(at 160.02 97.79 180)
@@ -1321,17 +1494,6 @@
 		)
 		(uuid "fbcb65ae-ac8e-4c78-9f05-237dcb6048a8")
 	)
-	(hierarchical_label "NTC-"
-		(shape input)
-		(at 160.02 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fc3cf741-ceea-446c-834e-69bb687bd2b1")
-	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x20")
 		(at 118.11 92.71 0)
@@ -1360,7 +1522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Horizontal"
 			(at 118.11 92.71 0)
 			(effects
 				(font
@@ -1651,6 +1813,72 @@
 			(project ""
 				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/f6c14c9f-be18-4932-99a8-c7d510021503/e7e6bd43-5535-45bf-89a8-507685ee23ac"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 142.24 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ff3f4dc-254a-4d58-b676-af0a97f25907")
+		(property "Reference" "#PWR063"
+			(at 142.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 142.113 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "552ac2aa-6c88-4228-882d-42fd28453ca4")
+		)
+		(instances
+			(project ""
+				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/f6c14c9f-be18-4932-99a8-c7d510021503/e7e6bd43-5535-45bf-89a8-507685ee23ac"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
