@@ -273,7 +273,15 @@
     },
     "layer_pairs": [],
     "layer_presets": [],
-    "viewports": []
+    "viewports": [
+      {
+        "h": 141164725.6982661,
+        "name": "ALL",
+        "w": 260737627.7671334,
+        "x": -17570752.250412557,
+        "y": 50571228.01651988
+      }
+    ]
   },
   "boards": [],
   "cvpcb": {
@@ -561,10 +569,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "shell-bms.step",
       "svg": "",
       "vrml": ""
     },

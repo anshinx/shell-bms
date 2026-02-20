@@ -3983,16 +3983,6 @@
 		(uuid "fbe6c662-0428-4ebd-bd9b-747f980222bc")
 	)
 	(label "USB-"
-		(at 181.61 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0179dfe4-a7b4-4966-b92f-7a3184649d77")
-	)
-	(label "USB-"
 		(at 168.91 48.26 0)
 		(effects
 			(font
@@ -4011,16 +4001,6 @@
 			(justify left bottom)
 		)
 		(uuid "e36b2439-a381-43ab-87a9-6f4cac960b68")
-	)
-	(label "USB+"
-		(at 181.61 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fca525bf-03b4-4326-9b4a-c607b01e43d4")
 	)
 	(hierarchical_label "3V3"
 		(shape input)

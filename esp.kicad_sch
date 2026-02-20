@@ -2983,26 +2983,6 @@
 		(uuid "fdb10627-5098-4947-843d-8ea191fa7ed1")
 	)
 	(label "USB+"
-		(at 102.87 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0bf2e89e-a86d-4e2a-b937-cf90587d9fa4")
-	)
-	(label "USB-"
-		(at 102.87 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4e293cc3-3cf8-45ea-8a7a-6d2d8d40d96d")
-	)
-	(label "USB+"
 		(at 90.17 114.3 180)
 		(effects
 			(font
