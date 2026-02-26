@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -68,16 +68,7 @@
           "width": 0.35
         }
       ],
-      "drc_exclusions": [
-        [
-          "shorting_items|69680000|161180000|a673ad75-15c7-4063-8c8e-2e606a5e375e|71b34747-9fc7-4609-b40c-f9b9b51f12f1",
-          "USB"
-        ],
-        [
-          "shorting_items|74480000|161180000|32116069-3a55-4c24-b85a-300b57916189|c2389d6e-046c-4d17-9a2a-1c5a4349cc34",
-          "USB"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

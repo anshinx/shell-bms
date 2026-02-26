@@ -1771,12 +1771,6 @@
 		(uuid "0435bc21-45b5-4bba-ae58-31c9740382fd")
 	)
 	(junction
-		(at 139.7 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08c20b6d-3e51-4a88-81bd-533d9454791a")
-	)
-	(junction
 		(at 127 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1799,12 +1793,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "251d7643-7b45-4f21-8973-5c054fb65c97")
-	)
-	(junction
-		(at 139.7 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37f11adc-0c10-4b31-b579-53286fd158c0")
 	)
 	(junction
 		(at 139.7 63.5)
@@ -1905,16 +1893,6 @@
 			(type default)
 		)
 		(uuid "01000dfb-db09-4135-9433-a1156d9b29d4")
-	)
-	(wire
-		(pts
-			(xy 143.51 81.28) (xy 139.7 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0176dd4c-a8c5-4152-a40b-d6b1dce5a192")
 	)
 	(wire
 		(pts
@@ -2068,16 +2046,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 78.74) (xy 143.51 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3513da7c-d550-4d36-8e13-8d4fc68a8825")
-	)
-	(wire
-		(pts
 			(xy 93.98 60.96) (xy 92.71 60.96)
 		)
 		(stroke
@@ -2158,7 +2126,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 81.28) (xy 139.7 87.63)
+			(xy 139.7 63.5) (xy 139.7 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2398,26 +2366,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 68.58) (xy 139.7 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c30a197d-d542-4889-9129-e03f7446cefb")
-	)
-	(wire
-		(pts
-			(xy 143.51 68.58) (xy 139.7 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c558087e-b47c-4379-a42c-05959d4ff625")
-	)
-	(wire
-		(pts
 			(xy 78.74 121.92) (xy 73.66 121.92)
 		)
 		(stroke
@@ -2425,16 +2373,6 @@
 			(type default)
 		)
 		(uuid "c609df4d-5f83-4379-9dc8-45f108b6607b")
-	)
-	(wire
-		(pts
-			(xy 143.51 71.12) (xy 143.51 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c96d4c2b-ca12-465e-b181-003b6430db29")
 	)
 	(wire
 		(pts
@@ -2475,16 +2413,6 @@
 			(type default)
 		)
 		(uuid "d8a98681-1e5e-4fe4-9edd-b251599a7fd6")
-	)
-	(wire
-		(pts
-			(xy 139.7 63.5) (xy 139.7 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db2227ba-6406-456c-9335-18c338cf0ed7")
 	)
 	(wire
 		(pts
@@ -4744,74 +4672,6 @@
 			(project "shell-bms"
 				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/769ba42a-ebc1-4cfb-9244-822cfca559ab/bc8921b7-63e1-4733-88de-8291a98ca0fb"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 143.51 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fae1e556-f2e3-40b8-a687-6d3d0e064fed")
-		(property "Reference" "C37"
-			(at 151.13 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47uF"
-			(at 148.59 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 144.4752 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 143.51 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4553a512-b73d-4a70-8b95-2803d5d3503e")
-		)
-		(pin "1"
-			(uuid "fbc6bf82-2a9c-46ad-b3f1-af6e27e1460b")
-		)
-		(instances
-			(project "shell-bms"
-				(path "/ad9edf65-9f41-4da5-ac8d-b0754357a532/769ba42a-ebc1-4cfb-9244-822cfca559ab/bc8921b7-63e1-4733-88de-8291a98ca0fb"
-					(reference "C37")
 					(unit 1)
 				)
 			)

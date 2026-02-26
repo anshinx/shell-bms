@@ -2524,6 +2524,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 95.25) (xy 163.83 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14dc911a-3864-4ba0-b325-b50883a27675")
+	)
+	(wire
+		(pts
 			(xy 147.32 49.53) (xy 153.67 49.53)
 		)
 		(stroke
@@ -2581,16 +2591,6 @@
 			(type default)
 		)
 		(uuid "3d86d868-9b37-4a02-a526-58045e63e9e0")
-	)
-	(wire
-		(pts
-			(xy 156.21 95.25) (xy 161.29 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4020841b-44ff-49d6-817b-46a2cac6f90c")
 	)
 	(wire
 		(pts
@@ -3004,7 +3004,7 @@
 	)
 	(hierarchical_label "ESP_TX"
 		(shape output)
-		(at 161.29 95.25 0)
+		(at 163.83 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4424,7 +4424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm"
 			(at 156.21 101.6 0)
 			(effects
 				(font
@@ -4970,7 +4970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm"
 			(at 156.21 87.63 0)
 			(effects
 				(font
